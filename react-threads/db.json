@@ -6,7 +6,7 @@
       "user_name": "fabz official",
       "handle": "fabzVitha",
       "bio": "Just a guy trying to code :)",
-      "link": "",
+      "link": null,
       "img": "https://imgur.com/a/j47fIdd",
       "instagram_url": "https://www.instagram.com/_17voltetu/",
       "followers": [
@@ -28,7 +28,7 @@
       "user_name": "lily the puffin",
       "handle": "lilyPuffin",
       "bio": "Lily's gaming and anime stuff",
-      "link": "",
+      "link": null,
       "img": "https://i.imgur.com/lhw9Lzs.jpeg",
       "instagram_url": "https://www.instagram.com/lilypuffy/",
       "followers": [
@@ -47,7 +47,7 @@
       "user_name": "Mike the bookworm",
       "handle": "Mikebooks",
       "bio": "Don't judge a book by it's cover ;)",
-      "link": "",
+      "link": null,
       "img": "https://i.imgur.com/BTRO6st.jpeg",
       "instagram_url": "https://www.instagram.com/mikebookies/",
       "followers": [
@@ -66,12 +66,69 @@
       "user_name": "sara's life party",
       "handle": "SaraFestives",
       "bio": "Enjoy your life and dance away!",
-      "link": "",
+      "link": null,
       "img": "https://i.imgur.com/zlhcApG.jpeg",
       "instagram_url": "https://www.instagram.com/saraparties/",
       "followers": [
         {
           "user_uuid": "feda3a38-17ec-40a0-a9d1-05073088fba0"
+        }
+      ]
+    }
+  ],
+
+  "threads": [
+    {
+      "id": 0,
+      "timestamp": "Sun Oct 20 2024 15:11:59 GMT+0200 (Central European Summer Time)",
+      "thread_from": "feda3a38-17ec-40a0-a9d1-05073088fba0",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Greetings habitants of the world of threads!",
+      "likes": [
+        {
+          "uuid": "d1278280-12e9-429e-a5ae-3d88b536a15e"
+        },
+        {
+          "uuid": "870e7e97-3723-4226-837c-dceb7459ff09"
+        }
+      ]
+    },
+
+    {
+      "id": 1,
+      "timestamp": "Sun Oct 20 2024 16:14:45 GMT+0200 (Central European Summer Time)",
+      "thread_from": "d1278280-12e9-429e-a5ae-3d88b536a15e",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "A good book on a rainy day is the best",
+      "likes": [
+        {
+          "uuid": "870e7e97-3723-4226-837c-dceb7459ff09"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "timestamp": "Sun Oct 20 2024 16:39:05 GMT+0200 (Central European Summer Time)",
+      "thread_from": "d1278280-12e9-429e-a5ae-3d88b536a15e",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "What's a really good book you've read recently?",
+      "likes": []
+    },
+
+    {
+      "id": 3,
+      "timestamp": "Sun Oct 20 2024 20:17:09 GMT+0200 (Central European Summer Time)",
+      "thread_from": "870e7e97-3723-4226-837c-dceb7459ff09",
+      "thread_to": "d1278280-12e9-429e-a5ae-3d88b536a15e",
+      "reply_to": 2,
+      "text": "The witcher!",
+      "likes": [
+        {
+          "uuid": "feda3a38-17ec-40a0-a9d1-05073088fba0"
         }
       ]
     }
