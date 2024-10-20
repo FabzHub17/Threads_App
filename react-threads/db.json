@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "user_uuid": "feda3a38-17ec-40a0-a9d1-05073088fba0",
+      "user_name": "fabz official",
+      "handle": "fabzVitha",
+      "bio": "Just a guy trying to code :)",
+      "link": "",
+      "img": "https://imgur.com/a/j47fIdd",
+      "instagram_url": "https://www.instagram.com/_17voltetu/",
+      "followers": [
+        {
+          "user_uuid": "d1278280-12e9-429e-a5ae-3d88b536a15e"
+        },
+        {
+          "user_uuid": "ee95a4fc-42f1-4b59-b44a-67fc34e12b6d"
+        },
+        {
+          "user_uuid": "870e7e97-3723-4226-837c-dceb7459ff09"
+        }
+      ]
+    },
+
+    {
+      "id": 1,
+      "user_uuid": "d1278280-12e9-429e-a5ae-3d88b536a15e",
+      "user_name": "lily the puffin",
+      "handle": "lilyPuffin",
+      "bio": "Lily's gaming and anime stuff",
+      "link": "",
+      "img": "https://i.imgur.com/lhw9Lzs.jpeg",
+      "instagram_url": "https://www.instagram.com/lilypuffy/",
+      "followers": [
+        {
+          "user_uuid": "feda3a38-17ec-40a0-a9d1-05073088fba0"
+        },
+        {
+          "user_uuid": "ee95a4fc-42f1-4b59-b44a-67fc34e12b6d"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "user_uuid": "ee95a4fc-42f1-4b59-b44a-67fc34e12b6d",
+      "user_name": "Mike the bookworm",
+      "handle": "Mikebooks",
+      "bio": "Don't judge a book by it's cover ;)",
+      "link": "",
+      "img": "https://i.imgur.com/BTRO6st.jpeg",
+      "instagram_url": "https://www.instagram.com/mikebookies/",
+      "followers": [
+        {
+          "user_uuid": "d1278280-12e9-429e-a5ae-3d88b536a15e"
+        },
+        {
+          "user_uuid": "ee95a4fc-42f1-4b59-b44a-67fc34e12b6d"
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "user_uuid": "870e7e97-3723-4226-837c-dceb7459ff09",
+      "user_name": "sara's life party",
+      "handle": "SaraFestives",
+      "bio": "Enjoy your life and dance away!",
+      "link": "",
+      "img": "https://i.imgur.com/zlhcApG.jpeg",
+      "instagram_url": "https://www.instagram.com/saraparties/",
+      "followers": [
+        {
+          "user_uuid": "feda3a38-17ec-40a0-a9d1-05073088fba0"
+        }
+      ]
+    }
+  ]
+}
