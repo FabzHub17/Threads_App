@@ -1,0 +1,29 @@
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* 1rem == 10px; */
+}
+
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  color: rgb(250, 250, 250);
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  position: relative;
+  height: 75rem;
+  width: 38rem;
+  border-radius: 4rem;
+  background-color: rgb(38, 38, 38);
+  padding: 2rem;
+}
