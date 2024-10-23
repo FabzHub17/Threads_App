@@ -63,6 +63,7 @@ header {
     display: flex;
     justify-content: space-between;
   }
+
   .img_container {
     width: 5rem;
     height: 5rem;
@@ -106,5 +107,31 @@ button.primary {
 
   button.current {
     border-bottom: rgb(250, 250, 250) solid 2px;
+  }
+}
+
+.feed-card {
+  border-bottom: rgb(114, 114, 114) solid 1px;
+  padding: 1rem 0;
+
+  .text_container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .img_container {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+
+    img {
+      height: 110%;
+    }
+  }
+
+  .icons svg {
+    height: 2rem;
+    padding: 0 0.5rem;
   }
 }
