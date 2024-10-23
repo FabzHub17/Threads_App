@@ -1,7 +1,7 @@
 const PopUpThread = () => {
   return (
     <>
-      <article className="feed-card">hello</article>
+      <article className="feed-card"></article>
     </>
   );
 };

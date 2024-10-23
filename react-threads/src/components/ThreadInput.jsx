@@ -1,7 +1,7 @@
 const ThreadInput = () => {
   return (
     <>
-      <p>input</p>
+      <p></p>
       <input type="text" />
       <button></button>
     </>
