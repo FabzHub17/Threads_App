@@ -110,6 +110,7 @@ button.primary {
   }
 }
 
+/*------------------- Thread ---------------------*/
 .feed-card {
   border-bottom: rgb(114, 114, 114) solid 1px;
   padding: 1rem 0;
@@ -134,4 +135,11 @@ button.primary {
     height: 2rem;
     padding: 0 0.5rem;
   }
+}
+
+/*----------------------Feed----------------------*/
+
+.feed {
+  height: 40rem;
+  overflow-x: scroll;
 }
