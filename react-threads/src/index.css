@@ -143,3 +143,19 @@ button.primary {
   height: 40rem;
   overflow-x: scroll;
 }
+
+/*-------------------Thread Input------------------*/
+
+.thread-input {
+  background-color: transparent;
+  border: solid 1px rgb(114, 114, 114);
+  border-radius: 0.5rem;
+  padding: 1 rem;
+  width: 100%;
+  margin: 1rem 0;
+  color: rgb(250, 250, 250);
+}
+
+.thread-input:focus {
+  outline: none;
+}
