@@ -1,22 +1,23 @@
-const Header = () => {
+/* eslint-disable react/prop-types */
+const Header = ({ user, viewThreadsFeed, setViewThreadsFeed }) => {
   return (
     <>
       <header className="header">
         <div className="info_container">
           <div className="info_container-user">
-            <h1>username</h1>
+            <h1>{user.user_name}</h1>
             <p>
-              handle <span className="info_threads">threads.net</span>
+              {user.handle} <span className="info_threads">threads.net</span>
             </p>
           </div>
           <div className="img_container">
-            <img src="" alt="profile avatar" />
+            <img src={user.img} alt="profile avatar" />
           </div>
         </div>
-        <p>bio</p>
+        <p>{user.bio}</p>
         <div className="info_container-sub">
           <p className="sub-text">
-            X followers • <a href="#">link</a>
+            {user.followers.length} followers • <a href={user.link}>{user.link}</a>
           </p>
         </div>
         <button
@@ -26,8 +27,18 @@ const Header = () => {
           Share Profile
         </button>
         <div className="button_container">
-          <button>Threads</button>
-          <button>Replies</button>
+          <button
+            className={viewThreadsFeed ? "current" : null}
+            onClick={() => setViewThreadsFeed(true)}
+          >
+            Threads
+          </button>
+          <button
+            className={!viewThreadsFeed ? "current" : null}
+            onClick={() => setViewThreadsFeed(false)}
+          >
+            Replies
+          </button>
         </div>
       </header>
     </>

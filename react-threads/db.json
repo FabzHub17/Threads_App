@@ -7,7 +7,7 @@
       "handle": "fabzVitha",
       "bio": "Just a guy trying to code :)",
       "link": null,
-      "img": "https://imgur.com/a/j47fIdd",
+      "img": "https://i.imgur.com/oFo0oip.png",
       "instagram_url": "https://www.instagram.com/_17voltetu/",
       "followers": [
         {
@@ -122,7 +122,7 @@
     {
       "id": 3,
       "timestamp": "Sun Oct 20 2024 20:17:09 GMT+0200 (Central European Summer Time)",
-      "thread_from": "870e7e97-3723-4226-837c-dceb7459ff09",
+      "thread_from": "feda3a38-17ec-40a0-a9d1-05073088fba0",
       "thread_to": "d1278280-12e9-429e-a5ae-3d88b536a15e",
       "reply_to": 2,
       "text": "The witcher!",
@@ -131,6 +131,28 @@
           "uuid": "feda3a38-17ec-40a0-a9d1-05073088fba0"
         }
       ]
+    },
+    {
+      "id": 4,
+      "timestamp": "Sun Oct 20 2024 21:15:09 GMT+0200 (Central European Summer Time)",
+      "thread_from": "feda3a38-17ec-40a0-a9d1-05073088fba0",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Second Thread!",
+      "likes": [
+        {
+          "uuid": "d1278280-12e9-429e-a5ae-3d88b536a15e"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "timestamp": "Sun Oct 20 2024 23:48:17 GMT+0200 (Central European Summer Time)",
+      "thread_from": "feda3a38-17ec-40a0-a9d1-05073088fba0",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "What's up everyone?",
+      "likes": []
     }
   ]
 }
