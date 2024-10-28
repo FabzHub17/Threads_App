@@ -21,7 +21,6 @@
         }
       ]
     },
-
     {
       "id": 1,
       "user_uuid": "d1278280-12e9-429e-a5ae-3d88b536a15e",
@@ -40,7 +39,6 @@
         }
       ]
     },
-
     {
       "id": 2,
       "user_uuid": "ee95a4fc-42f1-4b59-b44a-67fc34e12b6d",
@@ -59,7 +57,6 @@
         }
       ]
     },
-
     {
       "id": 3,
       "user_uuid": "870e7e97-3723-4226-837c-dceb7459ff09",
@@ -76,7 +73,6 @@
       ]
     }
   ],
-
   "threads": [
     {
       "id": 0,
@@ -87,14 +83,16 @@
       "text": "Greetings habitants of the world of threads!",
       "likes": [
         {
-          "uuid": "d1278280-12e9-429e-a5ae-3d88b536a15e"
+          "user_uuid": "d1278280-12e9-429e-a5ae-3d88b536a15e"
         },
         {
-          "uuid": "870e7e97-3723-4226-837c-dceb7459ff09"
+          "user_uuid": "870e7e97-3723-4226-837c-dceb7459ff09"
+        },
+        {
+          "user_uuid": "feda3a38-17ec-40a0-a9d1-05073088fba0"
         }
       ]
     },
-
     {
       "id": 1,
       "timestamp": "Sun Oct 20 2024 16:14:45 GMT+0200 (Central European Summer Time)",
@@ -104,11 +102,10 @@
       "text": "A good book on a rainy day is the best",
       "likes": [
         {
-          "uuid": "870e7e97-3723-4226-837c-dceb7459ff09"
+          "user_uuid": "870e7e97-3723-4226-837c-dceb7459ff09"
         }
       ]
     },
-
     {
       "id": 2,
       "timestamp": "Sun Oct 20 2024 16:39:05 GMT+0200 (Central European Summer Time)",
@@ -118,7 +115,6 @@
       "text": "What's a really good book you've read recently?",
       "likes": []
     },
-
     {
       "id": 3,
       "timestamp": "Sun Oct 20 2024 20:17:09 GMT+0200 (Central European Summer Time)",
@@ -128,7 +124,7 @@
       "text": "The witcher!",
       "likes": [
         {
-          "uuid": "feda3a38-17ec-40a0-a9d1-05073088fba0"
+          "user_uuid": "feda3a38-17ec-40a0-a9d1-05073088fba0"
         }
       ]
     },
@@ -141,7 +137,7 @@
       "text": "Second Thread!",
       "likes": [
         {
-          "uuid": "d1278280-12e9-429e-a5ae-3d88b536a15e"
+          "user_uuid": "d1278280-12e9-429e-a5ae-3d88b536a15e"
         }
       ]
     },

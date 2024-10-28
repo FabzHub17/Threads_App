@@ -60,8 +60,6 @@ const App = () => {
     getThreadsFeed();
   }, [user, threads, viewThreadsFeed]);
 
-  console.log(filteredThreads);
-
   return (
     <>
       {user && (
@@ -76,6 +74,7 @@ const App = () => {
             user={user}
             filteredThreads={filteredThreads}
             setOpenPopup={setOpenPopup}
+            getThreads={getThreads}
           />
           {openPopup && <PopUp user={user} setOpenPopup={setOpenPopup} />}
           <div onClick={() => setOpenPopup(true)}>

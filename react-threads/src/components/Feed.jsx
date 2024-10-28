@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import Thread from "./Thread";
 
-const Feed = ({ user, filteredThreads, setOpenPopup }) => {
+const Feed = ({ user, filteredThreads, setOpenPopup, getThreads }) => {
   return (
     <>
       <div className="feed">
@@ -11,6 +11,7 @@ const Feed = ({ user, filteredThreads, setOpenPopup }) => {
             user={user}
             filteredThread={filteredThread}
             setOpenPopup={setOpenPopup}
+            getThreads={getThreads}
           />
         ))}
       </div>
